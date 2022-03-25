@@ -1,0 +1,25 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th> "surgeon" </th>
+                <th> "specialty"</th>
+                <th> "anesthsiste"</th>
+                <th> "nurse1" </th>
+                <th> "nurse2"</th>
+                <th> "roomNumber"</th>
+                <th> "intervention"</th>
+            </tr>
+        </thead>
+
+        <tr *ngFor="let sur of surgeonService.surgeons">
+            <td>{{sur.surgeon}}</td>
+            <td>{{sur.anesthsiste}}</td>
+            <td>{{sur.nurse1}}</td>
+            <td>{{sur.nurse2}}</td>
+            <td>{{sur.roomNumber}}</td>
+            <td>{{sur.specialty}}</td>
+            <td>{{sur.intervention}}</td>
+        </tr>
+    </table>
+</div>
