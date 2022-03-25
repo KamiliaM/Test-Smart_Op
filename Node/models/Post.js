@@ -1,8 +1,4 @@
 const mongoose = require('mongoose');
-
-
-
-
 const PostSchema = mongoose.Schema({
     surgeon: {
         type: String,
